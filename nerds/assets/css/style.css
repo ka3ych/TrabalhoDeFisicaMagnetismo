@@ -75,7 +75,7 @@ a {
     content: '|';
     animation: pisca .6s infinite;
 }
-@keyframes pisc {
+@keyframes pisca {
     0%, 100% {opacity: 1;}
     50% {opacity: 0;}
 }
@@ -111,7 +111,7 @@ a {
     font-size: .9em;
     color: #9b9b9b;
 }
-@keyframes mudCor {
+@keyframes mudaCor {
     0%, 100% {background-color: var(--blue);}
     40% {background-color: #dda9ff;}
     75% {background-color: #f8f89f;}
