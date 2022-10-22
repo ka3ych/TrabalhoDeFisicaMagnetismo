@@ -21,12 +21,12 @@
     <div class="nav">
         <h2 id="ner"> &#x1F61C; Nerdolas</h2>
         <div id="nav-itens">
-            <a href="#">Introdução</a>
-            <a href="#">Objetivo</a>
-            <a href="#">Metodologia</a>
-            <a href="#">Results</a>
-            <a href="#">Conclusion</a>
-            <a href="#">References</a>
+            <a href="#intro">Introdução</a>
+            <a href="#conceitos">Conceitos</a>
+            <a href="#metodo">Metodologia</a>
+            <a href="#resultado">Resultados</a>
+            <a href="#conclusao">Conclusão</a>
+            <a href="#referencais">Referências</a>
         </div>
         <i class="fa-solid fa-bars" id="btnMenu"></i>
     </div>
@@ -35,11 +35,11 @@
         
         <div class="texto">
             <h1>Olá, pessoas!</h1>
-            <p>Neste trabalho, pretende-se mostrar um pouco sobre o  magnetismo e algumas de suas aplicações.</p>
-            <p>Nesse sentido, abordam-se, brevemente, conceitos de eletromagnetismo fundamentais ao entendimento dos fenômenos que lhes são associados.</p>
-            <p>Ademais, precede-se a uma apresentação e reflexão sobre as metodologias experimentais.</p>
-            <p>Por fim, os resultados e as conclusões dos eventos relatados.</p>
-            <p id="keyword"><em>PALAVRAS-CHAVE: magnetismo, aplicações, eletromagnetismo, fenômenos</em></p>
+                <p>Neste trabalho, pretende-se mostrar um pouco sobre o  magnetismo e algumas de suas aplicações.</p>
+                <p>Nesse sentido, abordam-se, brevemente, conceitos de eletromagnetismo fundamentais ao entendimento dos fenômenos que lhes são associados.</p>
+                <p>Ademais, precede-se a uma apresentação e reflexão sobre as metodologias experimentais.</p>
+                <p>Por fim, os resultados e as conclusões dos eventos relatados.</p>
+                <p id="keyword"><em>PALAVRAS-CHAVE: magnetismo, aplicações, eletromagnetismo, fenômenos</em></p>
             <div>
                 <code>In this work, we intend to show a little about magnetism and some of its applications. In this sense, concepts of electromagnetism that are fundamental to the understanding of the phenomena associated with them are briefly discussed. Furthermore, it precedes a presentation and reflection on the experimental methodologies. Finally, the results and conclusions of the reported events.</code>
                 <p>KEYWORDS: magnetism, applications, electromagnetism</p>
@@ -53,46 +53,114 @@
     <div class="container">
         <!-- divisão dos blocos-->
         <div class="c-left">
-            <div class="box">
-                <div class="box-title">Resumo</div>
+            <div class="box" id="intro">
+                <div class="box-title">Introdução</div>
                 <div class="box-text">
-                    <p>Neste trabalho, pretende-se aprofundar o conhecimento sobre magnetismo e algumas de suas aplicações.</p>
-                    <p>Nesse sentido, abordam-se, brevemente, conceitos de eletromagnetismo fundamentais ao entendimento dos fenômenos que lhes são associados.</p>
-                    <p>Ademais, precede-se a uma apresentação e reflexão sobre as metodologias experimentais.</p>
-                    <p>Por fim, os resultados e as conclusões dos eventos relatados.</p>
-                    <p id="keyword"><em>PALAVRAS-CHAVE: magnetismo, aplicações, eletromagnetismo, fenômenos</em></p>
+                    <p>O magnetismo é a área da Física responsável por estudar os fenômenos magnéticos, desde campo e força magnética até a indução eletromagnética de Faraday. </p>
+                    <p>Já o eletromagnetismo, estuda a relação fenômenos vistos em eletricidade e no magnetismo.</p>
+                    <p>O termo <strong>magnetismo</strong> veio do nome Magnésia, região da Turquia, devido a um minério chamado magnetita com a propriedade de atrair objetos ferrosos à distâcia (sem contato físico).</p>
+                    <p>A Magnetita é um mineral formado pelos óxidos de ferro II e III, cuja fórmula qímica é Fe<sub>3</sub>O<sub>4</sub>. Ela apresenta na sua composição, aproximadamente: </p>
+                    <ul style="margin-left:50px;">
+                        <li>69% de FeO e 31% de Fe<sub>2</sub>O<sub>3</sub> </li>
+                        <li>26,7% de ferro e 72,4% de oxigênio</li>
+                    </ul>
+                    <p style="margin-top: 13px;">A metodologia de inestigação baseia-se na realização de 2 experimentos (atração dos ímãs e motor homopolar) que mostram, na prática, sobre o magnetismo e eletromagnetismo, além na apresentação de gráficos, resultantes da aplicação das fórmulas.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-title" id="conceitos">Conceitos</div>
+                <div class="box-text">
+                   <p><strong>ÍMÃ:</strong> corpo que gera campo magnético ao seu redor. Pode ser classificado como <strong>natural</strong>, quando se trata de óxido de ferro, ou <strong>artificial</strong>, quando é construído com ligas metálicas que, ao serem submetidas a fortes campos magnéticos, adquirem propriedades magnéticas. Ele possui características, como:
+                    <ul style="margin-left:50px;">
+                        <li>Inseparabilidade dos polos: mesmo ao cortar um ímã ao meio, ele terá os polos norte e sul</li>
+                        <li>Nos polos, a força magnética será mais forte aos demais espaços do ímã</li>
+                    </ul>
+                    <img src="img/imass.jpg" style="width: 90%; margin: 20px 0 30px 10px;"/>
+                    <p><strong>DIPOLO MAGNÉTCO</strong> é um vetor que aponta em direção ao polo norte de um campo magnético. Essa grandeza é produzida quando uma carga elétrica se move em circuito fechado, como demonstrado na imagem a seguir: </p>
+                    <img src="img/momento-magnetico-2.jpg" style="width: 100%;margin: 30px 0;">
+                    <p><strong>FORÇA MAGNÉTICA: </strong>é o resultado da interação entre dois corpos dotados de propriedades magnéticas, como ímãs ou cargas elétricas em movimento, ou seja, são as próprias forças de atração e repulsão. Há uma fórmula para calculá-la:</p>
+                    <code><strong>F = q.v.B.sen(θ)</strong> <br><br>
+                        F: força eletromagnética (Newton - N) <br>
+                        Q: carga elétrica (Coulomb - C) <br>
+                        V: velociade da carga (m/s) <br>
+                        B: intensidade do vetor campo magnético (Tesla - T) <br>
+                        θ: é o ângulo formado entre a velocidade e o campo magnético
+                    </code>
+                    <p style="margin-top: 20px;"><strong>BÚSSOLA:</strong> um objeto antigo de <strong>localização geográfica</strong>, usada até os dias de hoje, que serve para identificar a localização dos pontos cardeais, colaterais e subcolaterais.</p>
+                    <p>A agulha dela é magnética (um pequeno ímã), com pólos norte e sul. Por isso, ela sofre a ação do campo magnético terrestre. Quando a agulha aponta para o pólo norte geográfico ela está, na verdade, apontando para o sul magnético da terra.</p>
+                    <img src="img/bussola.jpg" alt="bussola" style="margin-top: 20px; width:100%;">
+                </div>
+            </div>
+            <div class="box" id="metodo">
+                <div class="box-title">Metodologia</div>
+                <div class="box-text">
+                   <p>Fizemos 2 experimentos para demonstrar o magnetiso e eletromagnetismo:</p>
+                   <ol style="margin-left: 20px; ">
+                        <li><strong>ATRAÇÃO MAGNÉTICA</strong>
+                        <p>Primeiramente, queimamos o bombril, o que formou o óxido de ferro. (A fonte de calor faz com que as finas fibras de ferro reajam rapidamente com o oxigênio do ar, resultando em óxido de ferro e calor.)</p>
+                        <p ">Dessa forma, ao aproximar o ímã do ferro,eles se atraem. Isso ocorre porque o campo magnético produzido pelo ímã imanta o ferro de forma que os seus ímãs elementares se alinham no sentido do campo que é aplicado, ou seja, o ferro se transforma em um ímã, ocorrendo a atração entre o ferro e o ímã.</p>
+                        </li>
+                        <img src="img/atracao.webp" style="width: 100%; margin: 20px 0;">
+                        <li><strong>MOTOR HOMOPOLAR</strong></li>
+                        <p>Este experimento está relacionado à criação de um motor com o uso dos polos positivo e negativo da pilha. </p>
+                        <p>O conjunto de ímãs de neodímio é ligado ao polo negativo.</p>
+                        <p>O fio de cobre é posicionado de maneira que conecte os dois polos criando, assim, corrente elétrica. E o campo magético criado pelo ímã interage com os elétrons que estão passando ali, resultando no movimento do fio.</p>
+                        <video src="img/video.mp4" autoplay loop></video>
+                   </ol>
+                </div>
+            </div>
+            <div class="box" id="resultado">
+                <div class="box-title">Resultados</div>
+                <div class="box-text">
+                    <p>A partir dos cálculos com as fórmulas da força magnética e do campo magnético de um solenoide, montamos dois gráficos. </p>
+                    <ol>
+                        <li style="margin-left: 20px;"> <strong>Campo magnético de um solenóide:</strong></li> <br>
+                        <code><strong>B = (µ.N.i)/l</strong> <br><br>
+                            B: valor do campo magnético (Tesla - T) <br>
+                            µ: permeabildade magnética no meio (4π.10<sup>-7</sup>N.A<sup>-2</sup>) <br>
+                            i: corrente elétrica (Ampere = A) <br>
+                            N: quantidade de espiras <br>
+                            l: comprimento do soenoide (metros - m)
+                        </code>
+                        <br><br>
+                        <p>Adotamos medidas da corrente e comprimento para a realização dos cálculos (i = 25A; l = 2π)</p>
+                        <img src="img/campo.jpeg" alt="gráfico campo magnético" style="margin-top: 30px; width: 100%;">
+                        <li style="margin: 30px 0 10px 20px;"> <strong>Força magnética:</strong> </li>
+                        <p>Adotamos medidas fictícias de velocidade, carga elétrica e campo magnético para a realição dos cálculos. Veja abaixo:</p>
+                        <img src="img/forcam.jpeg" width="100%" style="margin-bottom: 30px; ">
+                        
+                        <img src="img/forca.jpeg" width="100%">
+                    </ol>
+                </div>
+            </div>
+            <div class="box" id="conclusao">
+                <div class="box-title">Conclusão</div>
+                <div class="box-text">
+                   <p>Podemos concluir que não possuímos conclusão rs.</p>
+                   <p>Agradecemos a todos que <strong>LERAM</strong> até aqui!</p>
+                    <p><strong>ATÉ MAIS !!!</strong></p>
+                    <img src="img/homer.gif" alt="homer sumindo - gif" id="homer">
+                </div>
+            </div>
+            <div class="box" id="referencais">
+                <div class="box-title">Referências</div>
+                <div class="box-text">
+                   <p>https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-ima.htm</p>
+                   <p>https://pt.vecteezy.com/arte-vetorial/6355399-tipos-de-imas-conjunto-de-imas-com-bussola-magnetico-poder-design-plano-infografico-para-ciencia-cartoon-vetor-ilustracao-sinal-simbolo-icone-ou-logotipo-isolado-em-conceito-de-diagrama-de-fundo</p>
+                        
+                   <p>https://www.lifeder.com/momento-magnetico/</p>
+                   <p>https://beduka.com/blog/materias/</p>
+                   <p>https://brasilescola.uol.com.br/-fisica/campo-magnetico-no-solenoide.htm</p>
+                   <p>https://www.preparaenem.com/-fisica/forca-magnetica.htm</p>
+                   </ul>
                 </div>
             </div>
         </div>
-        
-        <div class="c-right">
-            <div class="box">
-                <div class="box-title">Resumo</div>
-                <div class="box-text">
-                    <p>Neste trabalho, pretende-se aprofundar o conhecimento sobre magnetismo e algumas de suas aplicações.</p>
-                    <p>Nesse sentido, abordam-se, brevemente, conceitos de eletromagnetismo fundamentais ao entendimento dos fenômenos que lhes são associados.</p>
-                    <p>Ademais, precede-se a uma apresentação e reflexão sobre as metodologias experimentais.</p>
-                    <p>Por fim, os resultados e as conclusões dos eventos relatados.</p>
-                    <p id="keyword"><em>PALAVRAS-CHAVE: magnetismo, aplicações, eletromagnetismo, fenômenos</em></p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-title">Resumo</div>
-                <div class="box-text">
-                    <p>Neste trabalho, pretende-se aprofundar o conhecimento sobre magnetismo e algumas de suas aplicações.</p>
-                    <p>Nesse sentido, abordam-se, brevemente, conceitos de eletromagnetismo fundamentais ao entendimento dos fenômenos que lhes são associados.</p>
-                    <p>Ademais, precede-se a uma apresentação e reflexão sobre as metodologias experimentais.</p>
-                    <p>Por fim, os resultados e as conclusões dos eventos relatados.</p>
-                    <p id="keyword"><em>PALAVRAS-CHAVE: magnetismo, aplicações, eletromagnetismo, fenômenos</em></p>
-                </div>
-            </div>
-        </div>
-
-        
-
         
     </div>
-
+    <footer>
+        @2022Nerdolas - Todos os direitos são reservados
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
