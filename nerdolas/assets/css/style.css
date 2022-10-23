@@ -271,7 +271,7 @@ strong {
     .nav #ner { font-size: 1.7em; line-height: 70px; }
 
     .prin { margin-top: 380px; }   
-    .prin .img-lh img{ height: 250px; margin-left: 15%; margin-top: 20px;}
+    .prin .img-lh img{ height: 250px; margin-left: 15%; padding-top: 20px;}
     .prin .texto h1 { font-size: 3em; }
     .prin .texto p {
         padding-top: 10px;
