@@ -270,13 +270,13 @@ strong {
     .fa-bars { margin-left: 13%; }
     .nav #ner { font-size: 1.7em; line-height: 70px; }
 
-    .prin { margin-top: 350px; }   
+    .prin { margin-top: 380px; }   
     .prin .img-lh img{ height: 250px; margin-left: 15%; }
     .prin .texto h1 { font-size: 3em; }
     .prin .texto p {
         padding-top: 10px;
         font-size: 1em;
     }
-    .prin .texto div { margin-top: 60px 0 8px 35px; }
+    .prin .texto div { margin-top: 60px 0 35px 8px; }
    
 }
