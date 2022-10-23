@@ -77,6 +77,7 @@ a {
     border-radius: 50%;
 }
 .apresentacao {
+    z-index: 99999999;
     height: 150px;
     display: flex;
     background: var(--bescuro);
